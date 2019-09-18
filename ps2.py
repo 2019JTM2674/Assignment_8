@@ -22,9 +22,7 @@ def evaluate(matrix):
         
     sum_dia1+=matrix[0][0]+matrix[1][1]+matrix[2][2] #finding sum of diagonals
     sum_dia2+=matrix[0][2]+matrix[1][1]+matrix[2][0]
-    print("dia",sum_dia1)
-    print("dia",sum_row1)
-    print("dia",sum_col1)
+
     #checking condition
     if sum_col1>15 or sum_col2>15 or sum_col3>15 or sum_row1>15 or sum_row2>15 or sum_row3>15 or sum_dia1>15 or sum_dia2>15:
         print("Out of Range")
@@ -145,20 +143,8 @@ def ticTakToe():
             print("Player 2 won")
             break
 
-    
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+#main function
 print("Welcome to the Game")
 score=ticTakToe()
