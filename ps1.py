@@ -36,6 +36,6 @@ for x in match_index:
 #convet list to string
 transmit_string=''.join(map(str,list_string))
 print(transmit_string)
-binary_string+='0101'
+transmit_string+='0101'
 #printing binary data after parity check
 print("Transmitting data:"+transmit_string)
